@@ -3,11 +3,11 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-struct server {
+struct Server {
     int domain, protocol, service;
     u_long interface;
     int port, backlog;
-
+    int socket;
     struct sockaddr_in address;
     void (*launch)(void);
 };
