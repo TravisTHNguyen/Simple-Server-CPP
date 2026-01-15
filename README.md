@@ -1,2 +1,2 @@
-# Simple-Server-C
-Simple web server written in C++ (didn't feel like editing the repo name)
+# Simple-Server-CPP
+Simple web server written in C++ 
